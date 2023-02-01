@@ -40,7 +40,7 @@ public abstract class Veiculo {
 		this.kmPorLitro = kmRodados;
 	}
 	
-	private double calcularConsumo(double precoLitro) {
+	public double calcularConsumo(double precoLitro) {
 		return 0;
 	}
 }

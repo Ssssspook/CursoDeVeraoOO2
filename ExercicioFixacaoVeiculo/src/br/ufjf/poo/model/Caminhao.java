@@ -11,7 +11,8 @@ public class Caminhao extends Automovel {
 			this.tara = tara;
 		}
 		
-		private double calcularConsumo(double precoLitro) {
+		@Override
+		public double calcularConsumo(double precoLitro) {
 			double consumo = 0;
 			consumo = (getCapacidadeTanque()/getKmPorLitro()*precoLitro)/tara;
 			return consumo;
