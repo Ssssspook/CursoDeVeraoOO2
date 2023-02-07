@@ -1,4 +1,4 @@
-package br.ufjf.poo.model;
+package br.ufjf.dcc.poo.model;
 
 public class Caminhao extends Automovel {
 		private double tara;

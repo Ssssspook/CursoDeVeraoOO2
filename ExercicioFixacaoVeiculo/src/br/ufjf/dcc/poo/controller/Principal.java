@@ -1,7 +1,7 @@
-package br.ufjf.dcc.poo.model;
+package br.ufjf.dcc.poo.controller;
 
-import br.ufjf.poo.model.Automovel;
-import br.ufjf.poo.model.Caminhao;
+import br.ufjf.dcc.poo.model.Automovel;
+import br.ufjf.dcc.poo.model.Caminhao;
 
 public class Principal {
 
